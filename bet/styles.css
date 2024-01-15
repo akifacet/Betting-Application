@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #2ecc71, #000000);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#app {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #2ecc71;
+}
+
+#app h1 {
+  text-align: center;
+}
+
+#user-info, #bet-form, #result, #history {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type="number"], select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #2ecc71; 
+}
+
+#betHistory {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#betHistory li {
+  margin-bottom: 5px;
+}
+
+#result h2, #history h2 {
+  text-align: center;
+  color: #2ecc71;
+}
